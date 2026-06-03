@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- 导航栏 -->
     <nav class="navbar">
         <div class="container">
             <div class="logo">
@@ -17,101 +16,181 @@
             <ul class="nav-links">
                 <li><a href="index.html" class="active">主页</a></li>
                 <li><a href="requirements.html">专业需求</a></li>
-                <li><a href="government.html">班级政务</a></li>
-                <li><a href="new_guestbook.html">留言板</a></li>
             </ul>
-            <div class="menu-toggle">
+            <button class="menu-toggle" type="button" aria-label="打开导航">
                 <i class="fas fa-bars"></i>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Banner区域 -->
-    <header class="banner">
-        <div class="banner-content">
-            <h2>浙江万里学院</h2>
-            <h3>国际经济与贸易专业</h3>
-            <p>培养具有全球视野、创新精神和实践能力的国际经贸人才</p>
+    <header class="hero">
+        <div class="hero-media" aria-hidden="true">
+            <img src="images/campus-hero.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <h2>浙江万里学院</h2>
+                    <h3>国际经济与贸易专业</h3>
+                    <p>培养具有全球视野、创新精神和实践能力的国际经贸人才，连接宁波港、长三角与全球市场。</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="requirements.html"><i class="fas fa-compass"></i> 查看专业需求</a>
+                        <a class="btn btn-outline" href="#about"><i class="fas fa-arrow-down"></i> 了解专业</a>
+                    </div>
+                    <p class="image-credit">校园图片来源：<a href="https://www.zwu.edu.cn/xxfg/list2.htm" target="_blank" rel="noopener">浙江万里学院学校风光</a></p>
+                </div>
+                <aside class="hero-panel" aria-label="专业亮点">
+                    <h4>专业亮点</h4>
+                    <div class="hero-facts">
+                        <div class="hero-fact">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <strong>国家一流本科专业建设点</strong>
+                                <span>国际经济与贸易专业核心优势</span>
+                            </div>
+                        </div>
+                        <div class="hero-fact">
+                            <i class="fas fa-globe-asia"></i>
+                            <div>
+                                <strong>ACBSP 国际认证专业</strong>
+                                <span>面向国际商科教育标准建设</span>
+                            </div>
+                        </div>
+                        <div class="hero-fact">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <strong>浙江省应用型排名第一</strong>
+                                <span>校友会 2025 浙江省一流专业排名</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
         </div>
     </header>
 
-    <!-- 专业简介 -->
-    <section class="about-section">
+    <section class="quick-links" aria-label="快速入口">
         <div class="container">
-            <div class="section-title">
-                <h2>专业简介</h2>
-                <div class="line"></div>
+            <div class="quick-grid">
+                <a class="quick-card" href="#about">
+                    <i class="fas fa-building-columns"></i>
+                    <strong>专业简介</strong>
+                    <span>了解培养定位与专业优势</span>
+                </a>
+                <a class="quick-card" href="#objectives">
+                    <i class="fas fa-bullseye"></i>
+                    <strong>培养目标</strong>
+                    <span>四类能力清晰展开</span>
+                </a>
+                <a class="quick-card" href="requirements.html">
+                    <i class="fas fa-book-open"></i>
+                    <strong>学习资源</strong>
+                    <span>课程、竞赛、证书与工具</span>
+                </a>
+                <a class="quick-card" href="requirements.html#career">
+                    <i class="fas fa-briefcase"></i>
+                    <strong>就业发展</strong>
+                    <span>外贸、物流、跨境与升学路径</span>
+                </a>
             </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p><strong>专业简介</strong></p>
-                    <p>·国家一流本科专业建设点</p>
-                    <p>·国际商务专业硕士学位点</p>
-                    <p>·与美国、英国、法国等国知名高校设交换生项目</p>
-                    <p>·ACBSP国际认证专业</p>
-                    <p>本专业立足宁波，依托世界货物吞吐量第一大港、中国和中东欧国家经贸合作试点城市以及发达的民营与外贸经济，顺应"一带一路"建设和长三角一体化高质量发展，培养具有国际视野的应用型、复合型、创新型国际贸易人才。浙江万里学院国际经济与贸易专业在艾瑞深校友会网2025浙江省一流专业排名（应用型）中全国排名第二、全省排名第一，被评定为6星级专业（中国顶尖应用型专业）。</p>
-                    <p>基准学制：四年，授予经济学学士学位</p>
-                    <p><strong>就业前景</strong></p>
-                    <p>随着"一带一路"倡议的推进，中国与世界市场接轨的步伐逐渐加快，越来越多的企业把目光瞄向世界市场，国际贸易已成为我国目前最具增长潜力的行业之一，直接造成了对外贸人才需求的热潮，凭借宁波市外贸发达的区位优势，本专业毕业生供不应求，主要进入：</p>
-                    <p>1.进入外贸公司、生产工厂从事商品进出口业务。</p>
-                    <p>2.进入物流公司、货代公司、船公司等从事国际物流、货运代理、报关报检等工作。</p>
-                    <p>3.进入跨境电子商务公司从事商品进出口业务。</p>
-                    <p>4.进入各大银行、保险公司的国际业务部从事国际结算等涉外业务工作。</p>
-                    <p>5.考取公务员、事业单位、国内外研究生。</p>
-                    <p><strong>专业课程</strong></p>
-                    <p>微观经济学、宏观经济学、管理学、会计学、经济法、国际贸易实务、国际贸易理论与政策、世界经济、数字贸易学、国际商务谈判与礼仪、国际商法等。</p>
+        </div>
+    </section>
+
+    <section id="about" class="section section-muted">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-copy">
+                    <div class="section-title">
+                        <h2>专业简介</h2>
+                        <div class="line"></div>
+                    </div>
+                    <p>本专业立足宁波，依托世界货物吞吐量第一大港、中国和中东欧国家经贸合作试点城市以及发达的民营与外贸经济，顺应“一带一路”建设和长三角一体化高质量发展，培养具有国际视野的应用型、复合型、创新型国际贸易人才。</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i><span>基准学制四年，授予经济学学士学位。</span></li>
+                        <li><i class="fas fa-check"></i><span>与美国、英国、法国等国知名高校设有交换生项目。</span></li>
+                        <li><i class="fas fa-check"></i><span>专业课程覆盖经济学、贸易实务、国际金融、商务谈判、国际商法等方向。</span></li>
+                    </ul>
+                    <div class="stat-grid">
+                        <div class="stat-card">
+                            <strong>国家级</strong>
+                            <span>一流本科专业建设点</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>6 星级</strong>
+                            <span>中国顶尖应用型专业</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>全省第 1</strong>
+                            <span>2025 应用型专业排名</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="images/国际经济与贸易.webp" alt="国际经济与贸易专业">
+                <div class="about-media">
+                    <div class="media-frame">
+                        <img src="images/program-classroom.jpg" alt="浙江万里学院国际经济与贸易专业活动合影">
+                    </div>
+                    <p class="image-credit">专业图片来源：<a href="https://zsw.zwu.edu.cn/68/e3/c4830a92387/pagem.htm" target="_blank" rel="noopener">浙江万里学院本科招生网国际经济与贸易</a></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 培养目标 -->
-    <section class="objectives-section">
+    <section id="objectives" class="section">
         <div class="container">
             <div class="section-title">
                 <h2>培养目标</h2>
+                <p>把国际贸易知识、跨文化沟通、数据能力和职业素养整合到真实学习路径里。</p>
                 <div class="line"></div>
             </div>
             <div class="objectives-grid">
                 <div class="objective-item">
-                    <div class="icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
+                    <div class="icon"><i class="fas fa-globe"></i></div>
                     <h3>国际视野</h3>
-                    <p>具备全球化思维和国际视野，熟悉国际经济与贸易规则和惯例</p>
+                    <p>熟悉国际经济与贸易规则和惯例，理解全球市场与区域合作格局。</p>
                 </div>
                 <div class="objective-item">
-                    <div class="icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
+                    <div class="icon"><i class="fas fa-lightbulb"></i></div>
                     <h3>创新精神</h3>
-                    <p>具有创新意识和创业精神，能够适应复杂多变的国际经贸环境</p>
+                    <p>能够适应数字贸易、跨境电商和复杂多变的国际经贸环境。</p>
                 </div>
                 <div class="objective-item">
-                    <div class="icon">
-                        <i class="fas fa-hands-helping"></i>
-                    </div>
+                    <div class="icon"><i class="fas fa-handshake"></i></div>
                     <h3>实践能力</h3>
-                    <p>掌握扎实的国际经贸理论知识和业务技能，具备较强的实践操作能力</p>
+                    <p>掌握贸易实务、商务谈判、国际结算与数据分析等关键技能。</p>
                 </div>
                 <div class="objective-item">
-                    <div class="icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
+                    <div class="icon"><i class="fas fa-user-tie"></i></div>
                     <h3>职业素养</h3>
-                    <p>具有良好的职业道德和团队协作精神，能够胜任各类国际经贸工作</p>
+                    <p>具备良好的职业道德、团队协作能力和面向企业真实问题的执行力。</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="section section-muted">
+        <div class="container">
+            <div class="section-title">
+                <h2>从课堂到全球市场</h2>
+                <p>网站把课程、竞赛、工具、班级事务和留言反馈集中到一个更清晰的入口。</p>
+                <div class="line"></div>
+            </div>
+            <div class="program-path">
+                <div class="path-item">
+                    <h3>夯实课程基础</h3>
+                    <p>微观经济学、宏观经济学、国际贸易实务、国际金融、计量经济学等课程构成专业基础。</p>
+                </div>
+                <div class="path-item">
+                    <h3>参与实战训练</h3>
+                    <p>通过学科竞赛、外贸企业实习、跨境平台训练与商务沟通场景提升实操能力。</p>
+                </div>
+                <div class="path-item">
+                    <h3>面向职业发展</h3>
+                    <p>对接外贸公司、物流货代、跨境电商、银行保险国际业务及升学深造等路径。</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-    <!-- 页脚 -->
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -127,8 +206,10 @@
                 </div>
                 <div class="footer-social">
                     <h4>关注我们</h4>
-                    <a href="#" class="social-icon" data-image="images/微信二维码.png"><i class="fab fa-weixin"></i></a>
-                    <a href="#" class="social-icon" data-image="images/QQ.png"><i class="fab fa-qq"></i></a>
+                    <div>
+                        <a href="#" class="social-icon" data-image="images/微信二维码.png" aria-label="微信二维码"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-icon" data-image="images/QQ.png" aria-label="QQ二维码"><i class="fab fa-qq"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -137,42 +218,13 @@
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
-    
-    <!-- 社交图标弹窗功能 -->
-    <div id="qrCodeModal" class="modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); z-index: 9999; justify-content: center; align-items: center;">
-        <div class="modal-content" style="background-color: white; padding: 20px; border-radius: 10px; position: relative;">
-            <span class="close-modal" style="position: absolute; top: 10px; right: 20px; font-size: 30px; cursor: pointer;">&times;</span>
-            <img id="modalImage" src="" alt="二维码" style="max-width: 100%; max-height: 80vh;">
+    <div id="qrCodeModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <span class="close-modal" aria-label="关闭">&times;</span>
+            <img id="modalImage" src="" alt="二维码">
         </div>
     </div>
-    
-    <script>
-        // 社交图标点击事件
-        document.querySelectorAll('.social-icon').forEach(icon => {
-            icon.addEventListener('click', function(e) {
-                e.preventDefault();
-                const imagePath = this.getAttribute('data-image');
-                const modal = document.getElementById('qrCodeModal');
-                const modalImage = document.getElementById('modalImage');
-                
-                modalImage.src = imagePath;
-                modal.style.display = 'flex';
-            });
-        });
-        
-        // 关闭弹窗
-        document.querySelector('.close-modal').addEventListener('click', function() {
-            document.getElementById('qrCodeModal').style.display = 'none';
-        });
-        
-        // 点击弹窗外部关闭
-        window.addEventListener('click', function(event) {
-            const modal = document.getElementById('qrCodeModal');
-            if (event.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-    </script>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
