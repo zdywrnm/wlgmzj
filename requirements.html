@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>专业需求 - 万里国贸之家</title>
+    <meta name="description" content="浙江万里学院国际经济与贸易专业课程、竞赛、证书、工具与就业资源。">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html"><h1>万里国贸之家</h1></a>
-            </div>
+        <div class="container nav-inner">
+            <a class="brand" href="index.html" aria-label="万里国贸之家首页">
+                <span class="brand-mark">WL</span>
+                <span class="brand-name">万里国贸之家</span>
+            </a>
             <ul class="nav-links">
                 <li><a href="index.html">主页</a></li>
                 <li><a href="requirements.html" class="active">专业需求</a></li>
@@ -23,245 +25,275 @@
         </div>
     </nav>
 
-    <header class="page-hero">
-        <div class="container">
-            <h2>专业培养体系</h2>
-            <p>用课程、数据渠道、竞赛、证书和就业平台组织学习路径，让专业需求更容易查找和行动。</p>
-            <div class="page-hero-actions">
-                <a class="btn btn-primary" href="#courses"><i class="fas fa-book-open"></i> 核心课程</a>
-                <a class="btn btn-outline" href="#career"><i class="fas fa-briefcase"></i> 就业发展</a>
+    <header class="resource-hero">
+        <div class="container resource-hero-grid">
+            <div>
+                <h1>专业需求与学习资源</h1>
+                <p>将国际经济与贸易专业的课程体系、信息渠道、竞赛证书、工具平台和发展方向整理成一张可执行清单。</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#courses"><i class="fas fa-book-open"></i> 核心课程</a>
+                    <a class="btn btn-ghost" href="#career"><i class="fas fa-briefcase"></i> 就业方向</a>
+                </div>
+            </div>
+            <div class="resource-summary">
+                <div>
+                    <strong>5 类</strong>
+                    <span>课程模块</span>
+                </div>
+                <div>
+                    <strong>20+</strong>
+                    <span>专业资源入口</span>
+                </div>
+                <div>
+                    <strong>6 条</strong>
+                    <span>就业与升学路径</span>
+                </div>
             </div>
         </div>
     </header>
 
-    <main class="requirements-section">
-        <div class="container">
-            <div class="requirements-content">
-                <section id="courses" class="requirement-category">
-                    <div class="category-header">
-                        <div>
-                            <h3><i class="fas fa-book-open"></i> 核心课程体系</h3>
-                            <p>覆盖经、管、贸、金多学科核心课程，夯实专业基础能力。</p>
-                        </div>
-                    </div>
-                    <div class="unified-card-grid">
-                        <div class="unified-card">
-                            <h4><i class="fas fa-graduation-cap"></i> 基础课程</h4>
-                            <div class="info-card">英语</div>
-                            <div class="info-card">数学</div>
-                            <div class="info-card">经济学</div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-chart-line"></i> 经济学</h4>
-                            <div class="info-card important-course">微观经济学</div>
-                            <div class="info-card important-course">宏观经济学</div>
-                            <div class="info-card">政治经济学</div>
-                            <div class="info-card important-course">计量经济学</div>
-                            <div class="info-card">产业经济学</div>
-                            <div class="info-card">发展经济学</div>
-                            <div class="info-card">财政学</div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-globe"></i> 贸易学</h4>
-                            <div class="info-card important-course">国际贸易</div>
-                            <div class="info-card important-course">国际贸易实务</div>
-                            <div class="info-card important-course">国际经济学</div>
-                            <div class="info-card">国际结算</div>
-                            <div class="info-card">国际商法</div>
-                            <div class="info-card important-course">外贸英语函电</div>
-                            <div class="info-card">跨国公司经营管理</div>
-                            <div class="info-card">国际贸易地理</div>
-                            <div class="info-card">世贸组织概论</div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-money-bill-wave"></i> 金融学</h4>
-                            <div class="info-card">货币银行学</div>
-                            <div class="info-card">国际金融</div>
-                            <div class="info-card">投资银行学</div>
-                            <div class="info-card">投资项目评估</div>
-                            <div class="info-card">证券投资学</div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-users-cog"></i> 管理学</h4>
-                            <div class="info-card">管理学</div>
-                            <div class="info-card">会计学</div>
-                            <div class="info-card">商务沟通</div>
-                            <div class="info-card">财务管理</div>
-                            <div class="info-card">财务报表分析</div>
-                            <div class="info-card">电子商务原理</div>
-                        </div>
-                    </div>
-                </section>
+    <main class="resource-main">
+        <div class="container resource-shell">
+            <aside class="resource-toc" aria-label="页面目录">
+                <a href="#courses">课程体系</a>
+                <a href="#channels">信息渠道</a>
+                <a href="#competitions">竞赛活动</a>
+                <a href="#certificates">考证指南</a>
+                <a href="#tools">技能工具</a>
+                <a href="#career">就业发展</a>
+            </aside>
 
-                <section class="requirement-category">
-                    <div class="category-header">
-                        <div>
-                            <h3><i class="fas fa-newspaper"></i> 国际贸易信息渠道</h3>
-                            <p>权威数据与平台，帮助你高效洞察全球经贸动态。</p>
-                        </div>
+            <div class="resource-content">
+                <section id="courses" class="resource-section">
+                    <div class="resource-heading">
+                        <h2><i class="fas fa-book-open"></i> 核心课程体系</h2>
+                        <p>先搭建经贸基础，再进入贸易实务、金融管理和数据分析能力训练。</p>
                     </div>
-                    <div class="unified-card-grid">
-                        <div class="unified-card">
-                            <h4><i class="fas fa-database"></i> 数据平台</h4>
-                            <div class="info-card"><a href="https://www.wind.com.cn/" target="_blank" rel="noopener">万得</a></div>
-                            <div class="info-card"><a href="https://data.csmar.com/" target="_blank" rel="noopener">国泰安</a></div>
-                            <div class="info-card"><a href="https://www.cei.cn/" target="_blank" rel="noopener">中经网</a></div>
-                            <div class="info-card"><a href="https://www.fobshanghai.com/" target="_blank" rel="noopener">福步外贸网</a></div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-landmark"></i> 官方组织</h4>
-                            <div class="info-card"><a href="https://www.un.org/zh/" target="_blank" rel="noopener">联合国</a></div>
-                            <div class="info-card"><a href="https://www.wto.org/" target="_blank" rel="noopener">世贸组织</a></div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-book"></i> 学术资源</h4>
-                            <div class="info-card"><a href="https://www.cnki.net/" target="_blank" rel="noopener">知网</a></div>
-                            <div class="info-card cluster-box">
-                                <div class="cluster-title">科研期刊出版创作服务</div>
-                                <div class="cluster-links">
-                                    <a href="https://www.wiley.com/en-us" target="_blank" rel="noopener">Wiley</a>
-                                    <span>|</span>
-                                    <a href="https://www.springer.com/" target="_blank" rel="noopener">Springer</a>
-                                    <span>|</span>
-                                    <a href="https://www.elsevier.com/" target="_blank" rel="noopener">Elsevier</a>
-                                </div>
+                    <div class="course-matrix">
+                        <article class="course-group">
+                            <h3>基础课程</h3>
+                            <div class="tag-list">
+                                <span>英语</span>
+                                <span>数学</span>
+                                <span>经济学</span>
                             </div>
-                        </div>
+                        </article>
+                        <article class="course-group">
+                            <h3>经济学</h3>
+                            <div class="tag-list">
+                                <span class="is-key">微观经济学</span>
+                                <span class="is-key">宏观经济学</span>
+                                <span>政治经济学</span>
+                                <span class="is-key">计量经济学</span>
+                                <span>产业经济学</span>
+                                <span>发展经济学</span>
+                                <span>财政学</span>
+                            </div>
+                        </article>
+                        <article class="course-group course-wide">
+                            <h3>贸易学</h3>
+                            <div class="tag-list">
+                                <span class="is-key">国际贸易</span>
+                                <span class="is-key">国际贸易实务</span>
+                                <span class="is-key">国际经济学</span>
+                                <span>国际结算</span>
+                                <span>国际商法</span>
+                                <span class="is-key">外贸英语函电</span>
+                                <span>跨国公司经营管理</span>
+                                <span>国际贸易地理</span>
+                                <span>世贸组织概论</span>
+                            </div>
+                        </article>
+                        <article class="course-group">
+                            <h3>金融学</h3>
+                            <div class="tag-list">
+                                <span>货币银行学</span>
+                                <span>国际金融</span>
+                                <span>投资银行学</span>
+                                <span>投资项目评估</span>
+                                <span>证券投资学</span>
+                            </div>
+                        </article>
+                        <article class="course-group">
+                            <h3>管理学</h3>
+                            <div class="tag-list">
+                                <span>管理学</span>
+                                <span>会计学</span>
+                                <span>商务沟通</span>
+                                <span>财务管理</span>
+                                <span>财务报表分析</span>
+                                <span>电子商务原理</span>
+                            </div>
+                        </article>
                     </div>
                 </section>
 
-                <section class="requirement-category">
-                    <div class="category-header">
-                        <div>
-                            <h3><i class="fas fa-trophy"></i> 学科竞赛与社团活动</h3>
-                            <p>参与高含金量竞赛与活动，提升综合素养与实战能力。</p>
-                        </div>
+                <section id="channels" class="resource-section">
+                    <div class="resource-heading">
+                        <h2><i class="fas fa-database"></i> 国际贸易信息渠道</h2>
+                        <p>用权威数据、国际组织和学术资源补足课堂之外的信息能力。</p>
                     </div>
-                    <div class="unified-card-grid">
-                        <div class="unified-card">
-                            <h4><i class="fas fa-award"></i> 专业竞赛</h4>
-                            <div class="info-card"><a href="https://winner.pocib.com/2024-2025/index.html" target="_blank" rel="noopener">POCIB全国大学生外贸从业能力大赛</a></div>
-                            <div class="info-card"><a href="https://brandstorm.loreal.com/zh" target="_blank" rel="noopener">欧莱雅商赛</a></div>
-                            <div class="info-card"><a href="https://pg-ceochallenge.hrc.com.vn/" target="_blank" rel="noopener">宝洁CEO挑战赛</a></div>
-                            <div class="info-card"><a href="https://www.deloitte.com/cn/zh/events.html" target="_blank" rel="noopener">德勤税务精英挑战赛</a></div>
-                            <div class="info-card"><a href="https://www.tiaozhanbei.net/" target="_blank" rel="noopener">“挑战杯”中国大学生创业计划竞赛</a></div>
-                            <div class="info-card"><a href="https://www.chinaneccs.cn/" target="_blank" rel="noopener">大学生英语竞赛</a></div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-users"></i> 社团活动</h4>
-                            <div class="info-card"><a href="https://bfsumun.unischool.cn/" target="_blank" rel="noopener">模拟联合国</a></div>
-                            <div class="info-card">贸易类会展</div>
-                            <div class="info-card">外贸企业实习</div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="requirement-category">
-                    <div class="category-header">
-                        <div>
-                            <h3><i class="fas fa-certificate"></i> 考证指南</h3>
-                            <p>合理规划专业与通用证书路径，为升学与就业加分。</p>
-                        </div>
-                    </div>
-                    <div class="unified-card-grid">
-                        <div class="unified-card">
-                            <h4><i class="fas fa-briefcase"></i> 专业资格证书</h4>
-                            <div class="info-card"><a href="https://cpaexam.cicpa.org.cn/" target="_blank" rel="noopener">CPA注册会计师</a></div>
-                            <div class="info-card"><a href="https://www.accaglobal.com/ca/en.html" target="_blank" rel="noopener">ACCA特许公认会计师</a></div>
-                            <div class="info-card"><a href="https://www.cfainstitute.org/" target="_blank" rel="noopener">CFA特许金融分析师</a></div>
-                            <div class="info-card"><a href="http://kzp.mof.gov.cn/" target="_blank" rel="noopener">会计从业资格证</a></div>
-                            <div class="info-card"><a href="https://www.sac.net.cn/cyry/kspt/ksbm/" target="_blank" rel="noopener">证券从业资格证</a></div>
-                            <div class="info-card"><a href="https://bec.neea.cn/" target="_blank" rel="noopener">剑桥商务英语高级证书</a></div>
-                        </div>
-                        <div class="unified-card">
-                            <h4><i class="fas fa-graduation-cap"></i> 通用能力证书</h4>
-                            <div class="info-card"><a href="https://cet-bm.neea.edu.cn/" target="_blank" rel="noopener">CET大学四六级考试</a></div>
-                            <div class="info-card"><a href="https://ncre-bm.neea.cn/" target="_blank" rel="noopener">计算机等级考试</a></div>
-                            <div class="info-card"><a href="https://ielts.org/" target="_blank" rel="noopener">雅思</a></div>
-                            <div class="info-card"><a href="https://www.cn.ets.org/toefl.html" target="_blank" rel="noopener">托福</a></div>
-                        </div>
+                    <div class="resource-card-grid">
+                        <article class="resource-card">
+                            <h3>数据平台</h3>
+                            <a href="https://www.wind.com.cn/" target="_blank" rel="noopener">万得</a>
+                            <a href="https://data.csmar.com/" target="_blank" rel="noopener">国泰安</a>
+                            <a href="https://www.cei.cn/" target="_blank" rel="noopener">中经网</a>
+                            <a href="https://www.fobshanghai.com/" target="_blank" rel="noopener">福步外贸网</a>
+                        </article>
+                        <article class="resource-card">
+                            <h3>官方组织</h3>
+                            <a href="https://www.un.org/zh/" target="_blank" rel="noopener">联合国</a>
+                            <a href="https://www.wto.org/" target="_blank" rel="noopener">世界贸易组织</a>
+                        </article>
+                        <article class="resource-card">
+                            <h3>学术资源</h3>
+                            <a href="https://www.cnki.net/" target="_blank" rel="noopener">中国知网</a>
+                            <a href="https://www.wiley.com/en-us" target="_blank" rel="noopener">Wiley</a>
+                            <a href="https://www.springer.com/" target="_blank" rel="noopener">Springer</a>
+                            <a href="https://www.elsevier.com/" target="_blank" rel="noopener">Elsevier</a>
+                        </article>
                     </div>
                 </section>
 
-                <section class="requirement-category">
-                    <div class="category-header">
-                        <div>
-                            <h3><i class="fas fa-laptop-code"></i> 专业技能与工具</h3>
-                            <p>掌握数据分析与外贸实务工具，助力学习与项目实践。</p>
-                        </div>
+                <section id="competitions" class="resource-section">
+                    <div class="resource-heading">
+                        <h2><i class="fas fa-trophy"></i> 学科竞赛与社团活动</h2>
+                        <p>通过比赛、会展和实习项目，把专业知识转化为可证明的实践成果。</p>
                     </div>
-                    <div class="unified-card-grid">
-                        <div class="unified-card">
-                            <h4><i class="fas fa-code"></i> 专业软件</h4>
-                            <div class="info-card"><a href="https://www.stata.com/" target="_blank" rel="noopener">Stata数据分析软件</a></div>
-                            <div class="info-card"><a href="https://www.eviews.com/" target="_blank" rel="noopener">EViews计量经济学软件包</a></div>
-                            <div class="info-card"><a href="https://www.microsoft.com/en/microsoft-365/microsoft-office" target="_blank" rel="noopener">Office办公软件</a></div>
-                            <div class="info-card"><a href="https://simforwarder.desunsoft.net/" target="_blank" rel="noopener">SimForwarder国际货代实训平台</a></div>
-                            <div class="info-card"><a href="https://itrade.taiwantrade.com/" target="_blank" rel="noopener">iTrade全球贸易大数据平台</a></div>
-                        </div>
+                    <div class="resource-card-grid two-col">
+                        <article class="resource-card">
+                            <h3>专业竞赛</h3>
+                            <a href="https://winner.pocib.com/2024-2025/index.html" target="_blank" rel="noopener">POCIB 全国大学生外贸从业能力大赛</a>
+                            <a href="https://brandstorm.loreal.com/zh" target="_blank" rel="noopener">欧莱雅 Brandstorm 商赛</a>
+                            <a href="https://pg-ceochallenge.hrc.com.vn/" target="_blank" rel="noopener">宝洁 CEO 挑战赛</a>
+                            <a href="https://www.deloitte.com/cn/zh/events.html" target="_blank" rel="noopener">德勤税务精英挑战赛</a>
+                            <a href="https://www.tiaozhanbei.net/" target="_blank" rel="noopener">“挑战杯”创业计划竞赛</a>
+                            <a href="https://www.chinaneccs.cn/" target="_blank" rel="noopener">全国大学生英语竞赛</a>
+                        </article>
+                        <article class="resource-card">
+                            <h3>活动实践</h3>
+                            <a href="https://bfsumun.unischool.cn/" target="_blank" rel="noopener">模拟联合国</a>
+                            <span>贸易类会展</span>
+                            <span>外贸企业实习</span>
+                            <span>跨境平台运营训练</span>
+                        </article>
                     </div>
                 </section>
 
-                <section id="career" class="requirement-category">
-                    <div class="category-header">
-                        <div>
-                            <h3><i class="fas fa-briefcase"></i> 就业方向与发展</h3>
-                            <p>对接全球电商与跨境平台，拓展国际化就业赛道。</p>
-                        </div>
+                <section id="certificates" class="resource-section">
+                    <div class="resource-heading">
+                        <h2><i class="fas fa-certificate"></i> 考证指南</h2>
+                        <p>证书不是越多越好，优先围绕语言、金融会计、数据工具和目标岗位做组合。</p>
                     </div>
-                    <div class="unified-card-grid">
-                        <div class="unified-card">
-                            <h4><i class="fas fa-store"></i> 跨境与商务平台</h4>
-                            <div class="info-card"><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></div>
-                            <div class="info-card"><a href="https://www.linkedin.com/" target="_blank" rel="noopener">领英</a></div>
-                            <div class="info-card"><a href="https://www.google.cn/" target="_blank" rel="noopener">谷歌</a></div>
-                            <div class="info-card"><a href="https://www.alibaba.com/" target="_blank" rel="noopener">阿里巴巴</a></div>
-                            <div class="info-card"><a href="https://www.amazon.com/" target="_blank" rel="noopener">亚马逊</a></div>
-                            <div class="info-card"><a href="https://www.ebay.com/" target="_blank" rel="noopener">eBay</a></div>
-                            <div class="info-card"><a href="https://www.wish.com/" target="_blank" rel="noopener">Wish</a></div>
-                            <div class="info-card"><a href="https://www.aliexpress.com/" target="_blank" rel="noopener">全球速卖通</a></div>
-                            <div class="info-card"><a href="https://global.jd.com/" target="_blank" rel="noopener">京东国际</a></div>
-                            <div class="info-card"><a href="https://www.tmall.hk/" target="_blank" rel="noopener">天猫国际</a></div>
-                            <div class="info-card"><a href="https://cn.made-in-china.com/" target="_blank" rel="noopener">中国制造网</a></div>
-                            <div class="info-card"><a href="https://www.globalsources.com/" target="_blank" rel="noopener">Global Sources</a></div>
-                        </div>
+                    <div class="resource-card-grid two-col">
+                        <article class="resource-card">
+                            <h3>专业资格证书</h3>
+                            <a href="https://cpaexam.cicpa.org.cn/" target="_blank" rel="noopener">CPA 注册会计师</a>
+                            <a href="https://www.accaglobal.com/ca/en.html" target="_blank" rel="noopener">ACCA 特许公认会计师</a>
+                            <a href="https://www.cfainstitute.org/" target="_blank" rel="noopener">CFA 特许金融分析师</a>
+                            <a href="http://kzp.mof.gov.cn/" target="_blank" rel="noopener">会计专业技术资格</a>
+                            <a href="https://www.sac.net.cn/cyry/kspt/ksbm/" target="_blank" rel="noopener">证券从业资格</a>
+                            <a href="https://bec.neea.cn/" target="_blank" rel="noopener">剑桥商务英语 BEC</a>
+                        </article>
+                        <article class="resource-card">
+                            <h3>通用能力证书</h3>
+                            <a href="https://cet-bm.neea.edu.cn/" target="_blank" rel="noopener">大学英语四六级</a>
+                            <a href="https://ncre-bm.neea.cn/" target="_blank" rel="noopener">全国计算机等级考试</a>
+                            <a href="https://ielts.org/" target="_blank" rel="noopener">雅思 IELTS</a>
+                            <a href="https://www.cn.ets.org/toefl.html" target="_blank" rel="noopener">托福 TOEFL</a>
+                        </article>
                     </div>
+                </section>
+
+                <section id="tools" class="resource-section">
+                    <div class="resource-heading">
+                        <h2><i class="fas fa-laptop-code"></i> 专业技能与工具</h2>
+                        <p>用软件工具支撑调研、计量分析、办公协作和外贸实训。</p>
+                    </div>
+                    <div class="resource-card-grid">
+                        <article class="resource-card">
+                            <h3>数据分析</h3>
+                            <a href="https://www.stata.com/" target="_blank" rel="noopener">Stata</a>
+                            <a href="https://www.eviews.com/" target="_blank" rel="noopener">EViews</a>
+                        </article>
+                        <article class="resource-card">
+                            <h3>办公协作</h3>
+                            <a href="https://www.microsoft.com/en/microsoft-365/microsoft-office" target="_blank" rel="noopener">Microsoft Office</a>
+                        </article>
+                        <article class="resource-card">
+                            <h3>外贸实训</h3>
+                            <a href="https://simforwarder.desunsoft.net/" target="_blank" rel="noopener">SimForwarder 国际货代实训平台</a>
+                            <a href="https://itrade.taiwantrade.com/" target="_blank" rel="noopener">iTrade 全球贸易大数据平台</a>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="career" class="resource-section">
+                    <div class="resource-heading">
+                        <h2><i class="fas fa-briefcase"></i> 就业方向与发展</h2>
+                        <p>围绕外贸、物流、跨境平台、金融涉外业务和继续深造建立职业路径。</p>
+                    </div>
+                    <div class="career-grid">
+                        <article>
+                            <h3>外贸业务</h3>
+                            <p>外贸跟单、国际采购、海外销售、商务谈判和客户运营。</p>
+                        </article>
+                        <article>
+                            <h3>跨境电商</h3>
+                            <p>平台运营、选品分析、广告投放、独立站和海外市场拓展。</p>
+                        </article>
+                        <article>
+                            <h3>物流货代</h3>
+                            <p>国际运输、报关报检、供应链协调和港口相关业务。</p>
+                        </article>
+                        <article>
+                            <h3>金融涉外</h3>
+                            <p>国际结算、贸易融资、保险、证券与企业财务方向。</p>
+                        </article>
+                        <article>
+                            <h3>企业管理</h3>
+                            <p>市场研究、运营管理、数据分析和跨国公司业务支持。</p>
+                        </article>
+                        <article>
+                            <h3>升学深造</h3>
+                            <p>国际贸易、应用经济学、金融、管理学及海外商科硕士。</p>
+                        </article>
+                    </div>
+                    <p class="source-note">培养信息参考：<a href="https://business.zwu.edu.cn/b0/40/c7077a176192/page.htm" target="_blank" rel="noopener">浙江万里学院商学院国际经济与贸易专业介绍</a></p>
                 </section>
             </div>
-            <p class="source-note">部分培养信息参考：<a href="https://business.zwu.edu.cn/b0/40/c7077a176192/page.htm" target="_blank" rel="noopener">浙江万里学院商学院国际经济与贸易专业介绍</a></p>
         </div>
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <h3>万里国贸之家</h3>
-                    <p>浙江万里学院国际经济与贸易专业官方网站</p>
-                </div>
-                <div class="footer-contact">
-                    <h4>联系我们</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> 浙江省宁波市鄞州区盛莫路1519号</p>
-                    <p><i class="fas fa-phone"></i> 19321716402</p>
-                    <p><i class="fas fa-envelope"></i> zdywdnmd@163.com</p>
-                </div>
-                <div class="footer-social">
-                    <h4>关注我们</h4>
-                    <div>
-                        <a href="#" class="social-icon" data-image="images/微信二维码.png" aria-label="微信二维码"><i class="fab fa-weixin"></i></a>
-                        <a href="#" class="social-icon" data-image="images/QQ.png" aria-label="QQ二维码"><i class="fab fa-qq"></i></a>
-                    </div>
+        <div class="container footer-content">
+            <div>
+                <h3>万里国贸之家</h3>
+                <p>浙江万里学院国际经济与贸易专业网站</p>
+            </div>
+            <div>
+                <h4>联系我们</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 浙江省宁波市鄞州区盛莫路1519号</p>
+                <p><i class="fas fa-phone"></i> 19321716402</p>
+                <p><i class="fas fa-envelope"></i> zdywdnmd@163.com</p>
+            </div>
+            <div>
+                <h4>关注我们</h4>
+                <div class="social-row">
+                    <a href="#" class="social-icon" data-image="images/微信二维码.png" aria-label="微信二维码"><i class="fab fa-weixin"></i></a>
+                    <a href="#" class="social-icon" data-image="images/QQ.png" aria-label="QQ二维码"><i class="fab fa-qq"></i></a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 浙江万里学院国际经济与贸易专业. All Rights Reserved.</p>
-            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 浙江万里学院国际经济与贸易专业. All Rights Reserved.</p>
         </div>
     </footer>
 
     <div id="qrCodeModal" class="modal" aria-hidden="true">
         <div class="modal-content">
-            <span class="close-modal" aria-label="关闭">&times;</span>
+            <button class="close-modal" type="button" aria-label="关闭">&times;</button>
             <img id="modalImage" src="" alt="二维码">
         </div>
     </div>

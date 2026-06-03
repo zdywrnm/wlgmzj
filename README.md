@@ -48,6 +48,9 @@
 - campus-hero.jpg - 首页校园主视觉，来源于浙江万里学院学校风光页面
 - campus-gallery.jpg - 子页头图，来源于公开校园风光页面
 - program-classroom.jpg - 专业简介配图，来源于浙江万里学院本科招生网
+- campus-arch-source.jpg - 校园绿荫连廊官方原图，来源于浙江万里学院学校风光页面
+- campus-arch-hd.jpg - 基于官方原图保真高清化处理后的首页主视觉
+- campus-blossom.jpg - 校园建筑与花枝实景图，来源于浙江万里学院学校风光页面
 
 如有自有授权校园照片，可以使用相同文件名替换对应图片。
 
